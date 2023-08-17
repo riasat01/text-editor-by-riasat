@@ -61,6 +61,18 @@ main {
     padding-right: 1rem;
 }
 
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
 #number {
     padding-top: 0.5rem;
     margin-right: 1rem;

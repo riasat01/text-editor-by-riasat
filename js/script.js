@@ -10,16 +10,17 @@ function getValue(element){
 
 document.querySelector('#bold').addEventListener('click', function(){
     let text = getElement('.area');
-    text.style.fontWeight = "bold"
+    text.classList.toggle('bold');
 });
 document.querySelector('#italic').addEventListener('click', function(){
     let text = getElement('.area');
-    text.style.fontStyle = "italic"
+    text.classList.toggle('italic');
 });
 document.querySelector('#underline').addEventListener('click', function(){
     let text = getElement('.area');
-    text.style.textDecoration = "underline"
+    text.classList.toggle('underline');
 });
+
 document.querySelector('#left').addEventListener('click', function(){
     let text = getElement('.area');
     text.style.textAlign = "left"
